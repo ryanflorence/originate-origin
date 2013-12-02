@@ -1,6 +1,6 @@
 {
   "name": "originate-origin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "loom origin for creating loom origins (yo dawg)",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,24 @@
+{
+  "name": "originate-origin",
+  "version": "0.1.0",
+  "description": "loom origin for creating loom origins (yo dawg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Florence <rpflorence@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "loom": "~3.x.x",
+    "glob": "~3.2.7",
+    "cli-color": "~0.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rpflorence/originate-origin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rpflorence/originate-origin/issues"
+  },
+  "homepage": "https://github.com/rpflorence/originate-origin"
+}

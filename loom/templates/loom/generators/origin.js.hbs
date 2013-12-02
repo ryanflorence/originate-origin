@@ -1,8 +1,13 @@
 var glob = require('glob');
 
+exports.before = function(next, env) {
+  env.appName = env.args[0];
+  next();
+};
+
 exports.present = function(next, env) {
   next({
-    appName: env.args[0],
+    appName: env.appName,
     headerChars: env.appName.split('').map(function() { return '='; }).join('')
   })
 };

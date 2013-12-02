@@ -10,7 +10,7 @@ Lets pretend you wrote the most stylish framework in world named
 'tophat'. Now you want to create an application development
 project "scaffold" for your users:
 
-```
+```sh
 $ npm install -g loom
 # > yo dawg, I heard you like originating origins with originate
 $ originate origin originate-tophat

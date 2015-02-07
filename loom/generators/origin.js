@@ -26,7 +26,7 @@ exports.savePath = function(next, env, template) {
   next(env.appName+'/'+template.replace('.hbs', ''));
 };
 
-exports.templates = glob.sync(__dirname+'/../templates/**/*.hbs').map(function(template) {
+exports.templates = glob.sync(__dirname+'/../templates/**/*.hbs', {dot: true}).map(function(template) {
   var base = __dirname.replace(/generators$/, '')+'templates/';
   return template.replace(base, '');
 });
